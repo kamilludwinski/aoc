@@ -54,6 +54,7 @@ def evaluate(circuit: dict[str, tuple], target: str = "a") -> int:
         if op == "RSHIFT":
             _, a, k = circuit[name]
             return signal(a) >> int(k)
+
         raise ValueError(circuit[name])
 
     return signal(target)
@@ -71,6 +72,7 @@ def p2(text: str) -> int:
     signal_a = p1(text)
     circuit = _parse_circuit(text)
     circuit["b"] = ("PASS", str(signal_a))
+
     return evaluate(circuit, "a")
 
 
