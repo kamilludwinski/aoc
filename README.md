@@ -11,5 +11,8 @@ Advent of Code is a set of challenges, allowing us to experiment with new langua
 # Years
 
 - 2015 - **python**
-- 2016 - **bash**
+- 2016 - **bash**  
   **Turns out bash is not the greatest idea for those type of problems, had to employ Cursor**
+- 2017 - **javascript**
+- 2018 - **typescript**
+- 2019 - **python**
